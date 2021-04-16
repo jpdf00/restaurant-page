@@ -1,76 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Restaurant Page
 
-> One paragraph statement about the project.
+> Small page for a restaurant dinamically rendered with JS.
 
 ![screenshot](./assets/img/app_screenshot.png)
 
-Additional description about the project and its features.
+The page is dinamically rendered and the content switches from a Home Page, a Menu Page, and a Contact Page.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS, and Javascript
+- Frameworks: Bootstrap
+- Technologies: Webpacker
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jpdf00.github.io/restaurant-page/)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Getting Started*
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
 
-### Install
+ - On the top of this repo click on the button named "Clone"
+ - Copy the HTTP URL or SSH.
+ - On the terminal type `git clone <copied-value>` where is the value you copied on the previous step.
+
+ or
+
+ - On the top of this repo click on the button named "Clone"
+ - Click on the button "Download zip".
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Open the `index.html` file inside the `dist` folder using your browser of choice.
 
 ## Authors
 
-👤 **Author1**
+👤 **João Paulo Dias França**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@jpdf00](https://github.com/jpdf00)
+- Twitter: [@jpdf00](https://twitter.com/jpdf00)
+- LinkedIn: [João Paulo Dias França](https://www.linkedin.com/in/jpdf00/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jpdf00/restaurant-page/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.

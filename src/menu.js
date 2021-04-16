@@ -30,9 +30,9 @@ const Menu = () => {
     return {dish};
   };
 
-  const dish01 = Dish('dish01', 'Lorem Ipsum 01', '$ 10.00');
-  const dish02 = Dish('dish02', 'Lorem Ipsum 02', '$ 20.00');
-  const dish03 = Dish('dish03', 'Lorem Ipsum 03', '$ 30.00');
+  const dish01 = Dish('Executive Dish', '01 to 02 people.', '$ 10.00');
+  const dish02 = Dish('Family Dish', '02 to 04 people.', '$ 20.00');
+  const dish03 = Dish('Banquete Dish', '04 to 08 people.', '$ 30.00');
 
   const items = [dish01.dish, dish02.dish, dish03.dish];
 
