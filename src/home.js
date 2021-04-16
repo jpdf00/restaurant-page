@@ -20,7 +20,7 @@ const Home = () => {
     home.appendChild(items[i]);
   }
 
-  return home
-}
+  return home;
+};
 
-export default Home
+export default Home;

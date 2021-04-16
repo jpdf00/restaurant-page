@@ -5,7 +5,7 @@ const Menu = () => {
   const menuList = document.createElement('ul');
   menuList.setAttribute('class', 'container');
 
-  const Dish = (name, description, price, read) => {
+  const Dish = (name, description, price) => {
     const dish = document.createElement('li');
     dish.setAttribute('class', 'd-flex flex-column');
 
@@ -27,7 +27,7 @@ const Menu = () => {
     dish.appendChild(itemName);
     dish.appendChild(itemBottom);
 
-    return {dish};
+    return { dish };
   };
 
   const dish01 = Dish('Executive Dish', '01 to 02 people.', '$ 10.00');
@@ -38,10 +38,10 @@ const Menu = () => {
 
   for (let i = 0; i < items.length; i += 1) {
     menuList.appendChild(items[i]);
-  };
+  }
 
-  menu.appendChild(menuList)
+  menu.appendChild(menuList);
   return menu;
-}
+};
 
-export default Menu
+export default Menu;

@@ -25,7 +25,7 @@ const Navbar = () => {
     navBar.appendChild(links[i]);
   }
 
-  return navBar
-}
+  return navBar;
+};
 
-export default Navbar
+export default Navbar;

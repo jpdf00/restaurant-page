@@ -29,7 +29,7 @@ const Contact = () => {
     contact.appendChild(inputs[i]);
   }
 
-  return contact
-}
+  return contact;
+};
 
-export default Contact
+export default Contact;
