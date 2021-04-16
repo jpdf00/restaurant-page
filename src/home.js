@@ -8,7 +8,7 @@ const Home = () => {
 
   const image = document.createElement('img');
   image.setAttribute('class', 'm-2');
-  image.setAttribute('src', './restaurant-photo.jpg');
+  image.setAttribute('src', '../assets/img/restaurant-photo.jpg');
   image.setAttribute('alt', 'Restaurant Photo');
 
   const description = document.createElement('p');
