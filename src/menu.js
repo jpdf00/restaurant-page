@@ -2,34 +2,45 @@ const Menu = () => {
   const menu = document.createElement('div');
   menu.setAttribute('class', 'container mt-5');
 
-  const itemOne = document.createElement('ul');
-  const itemTwo = document.createElement('ul');
-  const itemThree = document.createElement('ul');
+  const menuList = document.createElement('ul');
+  menuList.setAttribute('class', 'container');
 
-  const name = document.createElement('li');
-  const description = document.createElement('li');
-  const price = document.createElement('li');
+  const Dish = (name, description, price, read) => {
+    const dish = document.createElement('li');
+    dish.setAttribute('class', 'd-flex flex-column');
 
-  const nameList = ['dish01', 'dish02', 'dish03'];
-  const descriptionList = ['Lorem Ipsum', 'Lorem Ipsum', 'Lorem Ipsum'];
-  const priceList = ['$ 10.00', '$ 20.00', '$ 30.00'];
+    const itemName = document.createElement('h2');
 
-  //image.setAttribute('class', 'm-2');
+    const itemBottom = document.createElement('div');
+    itemBottom.setAttribute('class', 'd-flex justify-content-between');
 
-  const items = [itemOne, itemTwo, itemThree];
+    const itemDescription = document.createElement('p');
+    const itemPrice = document.createElement('p');
+
+    itemName.textContent = name;
+    itemDescription.textContent = description;
+    itemPrice.textContent = price;
+
+    itemBottom.appendChild(itemDescription);
+    itemBottom.appendChild(itemPrice);
+
+    dish.appendChild(itemName);
+    dish.appendChild(itemBottom);
+
+    return {dish};
+  };
+
+  const dish01 = Dish('dish01', 'Lorem Ipsum 01', '$ 10.00');
+  const dish02 = Dish('dish02', 'Lorem Ipsum 02', '$ 20.00');
+  const dish03 = Dish('dish03', 'Lorem Ipsum 03', '$ 30.00');
+
+  const items = [dish01.dish, dish02.dish, dish03.dish];
 
   for (let i = 0; i < items.length; i += 1) {
-    name.textContent = nameList[i];
-    description.textContent = descriptionList[i];
-    price.textContent = priceList[i];
+    menuList.appendChild(items[i]);
+  };
 
-    items[i].appendChild(name);
-    items[i].appendChild(description);
-    items[i].appendChild(price);
-
-    menu.appendChild(items[i]);
-  }
-
+  menu.appendChild(menuList)
   return menu;
 }
 
