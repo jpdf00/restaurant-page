@@ -1,5 +1,6 @@
 const Navbar = () => {
   const navBar = document.createElement('nav')
+  navBar.setAttribute('class', 'm-3 position-fixed top-0')
 
   const linkHome = document.createElement('a');
   const linkMenu = document.createElement('a');
