@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdf00/restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpdf00/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/jpdf00/restaurant-page#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^5.2.2",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
